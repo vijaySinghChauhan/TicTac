@@ -13,7 +13,7 @@
         android:id="@+id/turnTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Now it's X turn"
+        android:text="@string/now_it_s_x_turn"
         android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintLeft_toLeftOf="parent"

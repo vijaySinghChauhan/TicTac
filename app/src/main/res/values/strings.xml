@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Tic Tac </string>
+    <string name="now_it_s_x_turn">Now it\'s X turn</string>
 </resources>

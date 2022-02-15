@@ -14,7 +14,8 @@ class  MainActivity : AppCompatActivity()
         NOUGHT,
         CROSS
     }
-
+     val NOUGHT = "O"
+     val CROSS = "X"
     private var firstTurn = Turn.CROSS
     private var currentTurn = Turn.CROSS
 
@@ -46,7 +47,7 @@ class  MainActivity : AppCompatActivity()
         boardList.add(binding.c3)
     }
 
-    fun boardTapped(view: View)
+    fun gameIconClicked(view: View)
     {
         if(view !is Button)
             return
@@ -168,11 +169,7 @@ class  MainActivity : AppCompatActivity()
         binding.turnTV.text = turnText
     }
 
-    companion object
-    {
-        const val NOUGHT = "O"
-        const val CROSS = "X"
-    }
+
 
 }
 
