@@ -7,7 +7,7 @@ import android.widget.Button
 import androidx.appcompat.app.AlertDialog
 import com.vjchauhan.tictac.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity()
+class  MainActivity : AppCompatActivity()
 {
     enum class Turn
     {
@@ -161,9 +161,9 @@ class MainActivity : AppCompatActivity()
     {
         var turnText = ""
         if(currentTurn == Turn.CROSS)
-            turnText = "Turn $CROSS"
+            turnText = "Now it's $CROSS turn"
         else if(currentTurn == Turn.NOUGHT)
-            turnText = "Turn $NOUGHT"
+            turnText = "Now it's $NOUGHT turn"
 
         binding.turnTV.text = turnText
     }
